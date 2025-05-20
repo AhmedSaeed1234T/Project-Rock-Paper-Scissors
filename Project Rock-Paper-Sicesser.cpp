@@ -217,7 +217,7 @@ void GameStart()
         } while (PlayAgain != 'Y' && PlayAgain != 'N');
     } while (PlayAgain == 'Y');
     do {
-        cout << "\nThank you, see you later. 🤗👋\n\n" << endl;
+        cout << "\nThank you, see you later. \n\n" << endl;
         return;
     } while (PlayAgain == 'N' || PlayAgain == 'n');
 }
